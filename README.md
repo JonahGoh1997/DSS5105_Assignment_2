@@ -56,8 +56,6 @@ curl "http://localhost:5000/predict?w=1&x=25.0"
 }
 ```
 
----
-
 ### `/ate` – View model coefficients and ATE significance
 
 **Usage:**
