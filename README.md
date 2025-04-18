@@ -86,6 +86,19 @@ This project uses the following Python packages:
 
 All dependencies are listed in `requirements.txt`.
 
+## 🐳 Why Docker?
+
+Docker provides a lightweight and consistent environment to build, ship, and run applications. By containerizing this Flask API, you ensure that the application runs identically across different machines, avoiding issues related to dependency versions, system libraries, or OS differences.
+
+**Benefits of using Docker:**
+
+- ✅ **Portability:** Run the app seamlessly across development, staging, and production environments.
+- 🔐 **Isolation:** Keeps dependencies encapsulated within the container, preventing conflicts with other apps on the host.
+- 🔁 **Reproducibility:** Easily share the entire application setup (code, dependencies, environment) with collaborators via a `Dockerfile`.
+- ⚙️ **Simplified Deployment:** Containers can be deployed to cloud platforms, orchestration systems (e.g., Kubernetes), or run locally with ease.
+
+This ensures that your API is scalable, maintainable, and easy to deploy in any environment.
+
 ## 👤 Author
 
 [@JonahGoh1997](https://github.com/JonahGoh1997)
